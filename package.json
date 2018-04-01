@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/DepictYourself/wiki-search/issues"
   },
-  "homepage": "https://github.com/DepictYourself/wiki-search#readme"
+  "homepage": "https://github.com/DepictYourself/wiki-search#readme",
+  "devDependencies": {}
 }
