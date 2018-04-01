@@ -5,3 +5,15 @@ body {
 li {
     list-style: none;
 }
+
+.btn {
+    display: inline-block;
+    padding: 3px 6px;
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.3333px;
+    font-stretch: 100%;
+    font-weight: 400;
+}
