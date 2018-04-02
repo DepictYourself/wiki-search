@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#">
-        <input type="text" name="input-text" id="input-text">
-        <input type="submit" id="input-submit" value="Submit">
-        <a class="btn" href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Random Wikipedia article</a>
-    </form>
-    <ul id="test">
-
-    </ul>
+    <div class="container">
+        <h1>Wiki search</h1>
+        <form action="#" class="form">
+            <input type="text" class="form__input-text" id="input-text" placeholder="Search">
+            <div class="form-group">
+                <input type="submit" class="form__input-submit" id="input-submit" value="Submit">
+                <a class="form__random" href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Random Wikipedia article</a>
+            </div>
+        </form>
+        <ul id="test">
+    
+        </ul>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>

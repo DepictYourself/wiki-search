@@ -1,19 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1rem is 10px */
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0,0,0, .87);
+}
+
 body {
-    background-color: #a4a4a4;
+    background-color: #eee;
+}
+
+.container {
+    max-width: 96rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
 li {
+    display: block;
+    box-sizing: border-box;
     list-style: none;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    background-color: #fafafa;
+    border: 5px solid #fafafa;
+    font-family: inherit;
+    text-decoration: none;
 }
 
-.btn {
-    display: inline-block;
-    padding: 3px 6px;
-    background-color: lightblue;
-    color: black;
+li:hover {
+    border-left: 5px solid lightsalmon;
+}
+
+li a:link,
+li a:visited {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13.3333px;
-    font-stretch: 100%;
-    font-weight: 400;
+}
+
+h3 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: rgba(0,0,0, .87);
+
+}
+
+p {
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: rgba(0,0,0, .54)
+}
+
+.form__input-text {
+    width: 50rem;
+    margin: 2rem 0;
+    padding: 5px 12px;
+
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0, .3);
+}
+
+.form__input-text:focus,
+.form__input-text:active {
+    box-shadow: 0 5px 10px rgba(0,0,0, .4);
+}
+
+.form-group {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form__input-submit {
+    border: none;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0, .2);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.333rem;
+}
+
+.form__input-submit:focus {
+    outline: none;
+}
+
+.form__input-submit:active {
+    box-shadow: 0 3px 8px rgba(0,0,0, .4);
+}
+
+.form__random {
+    border: none;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    border-radius: 100px;
+    background-color: lightsalmon;
+    box-shadow: 0 1px 5px rgba(0,0,0, .2);
+    text-decoration: none;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.333rem;
+}
+
+.form__random:focus {
+    outline: none;
+}
+
+.form__random:active {
+    box-shadow: 0 3px 8px rgba(0,0,0, .4);
 }
