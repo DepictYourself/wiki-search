@@ -61,7 +61,7 @@ p {
 }
 
 .form__input-text {
-    width: 50rem;
+    max-width: 50rem;
     margin: 2rem 0;
     padding: 5px 12px;
 
